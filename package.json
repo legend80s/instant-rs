@@ -1,0 +1,30 @@
+{
+  "name": "instant-rs",
+  "version": "1.0.0",
+  "description": "> A better `console.time`. >  > 💰 Time is Money, a library to figure out what your program costs in a **human readable** format use [pretty-ms](https://www.npmjs.com/package/pretty-ms) and designed in a **good-DX API style like Rust's** 🦀  `instant.elapsed`.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "pub:patch": "npm version patch",
+    "pub:minor": "npm version minor",
+    "pub:major": "npm version major",
+    "preversion": "npm test",
+    "postversion": "npm publish && git push && git push --tags",
+    "test": "node --test"
+  },
+  "keywords": [
+    "readable",
+    "elapsed",
+    "time",
+    "costs",
+    "console.time",
+    "console.timeEnd",
+    "instant",
+    "rust"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pretty-ms": "^9.0.0"
+  }
+}
