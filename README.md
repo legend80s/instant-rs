@@ -2,7 +2,7 @@
 
 > A better `console.time`.
 >
-> 💰 Time is money, a library to figure out what your program costs in a **human readable** format use [pretty-ms](https://www.npmjs.com/package/pretty-ms) and designed in a **good-DX API style like Rust's** 🦀  `instant.elapsed`.
+> 💰 Time is money, a library to convert time costs of your program to a **human readable** format use [pretty-ms](https://www.npmjs.com/package/pretty-ms) and designed in a **good-DX API style like Rust's** 🦀  `instant.elapsed`.
 
 ## Usage
 
@@ -78,4 +78,10 @@ now.elapsed({ compact: true });
 // `verbose` option
 now.elapsed({ compact: true });
 //=> '1.2 seconds'
+```
+
+### now
+
+```typescript
+function now(): Instant
 ```
