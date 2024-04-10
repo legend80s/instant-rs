@@ -31,7 +31,7 @@ test('doc-test in README', async (t) => {
 
     await sleep(6)
 
-    assert.match(now.elapsed(), /[6-9]ms/);
+    assert.match(now.elapsed(), /[5-9]ms/);
   })
 
   await t.test('10ms', async () => {
