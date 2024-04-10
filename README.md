@@ -10,8 +10,7 @@
   </a>
 
   <a href="https://www.npmjs.com/package/git-commit-msg-linter" target="_blank">
-    <img alt="lint by git commit msg linter" src="https://img.shields.io/badge/git-commit%20msg%20li
-nter-blue" />
+    <img alt="lint by git commit msg linter" src="https://img.shields.io/badge/git-commit%20msg%20linter-blue" />
   </a>
 </p>
 
