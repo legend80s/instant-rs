@@ -24,8 +24,12 @@ nter-blue" />
 ```js
 import Instant from 'instant-rs'
 
+// Mark beginning time
 const now = Instant.now();
+
 await doSthExpensive()
+
+// Show time costs
 console.log("time costs", now.elapsed());
 ```
 
