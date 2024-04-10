@@ -2,7 +2,7 @@
 
 > A better `console.time`.
 >
-> 💰 Time is money, a library to convert time costs of your program to a **human readable** format use [pretty-ms](https://www.npmjs.com/package/pretty-ms) and designed in a **good-DX API style like Rust's** 🦀  `instant.elapsed`.
+> 💰 Time is money, a very tiny library to convert time costs of your program to a **human readable** format use [pretty-ms](https://www.npmjs.com/package/pretty-ms) and designed in a **good-DX API style like Rust's** 🦀  `instant.elapsed`.
 
 ## Usage
 
