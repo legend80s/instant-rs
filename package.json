@@ -22,8 +22,16 @@
     "instant",
     "rust"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "legend80s",
+  "homepage": "https://github.com/legend80s/instant-rs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/legend80s/instant-rs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legend80s/instant-rs.git"
+  },
   "dependencies": {
     "pretty-ms": "^9.0.0"
   }
