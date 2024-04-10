@@ -1,5 +1,20 @@
 # instant-rs
 
+<p>
+  <a href="https://www.npmjs.com/package/instant-rs" target="_blank">
+    <img src="https://img.shields.io/npm/v/instant-rs.svg" alt="npm version" />
+  </a>
+
+  <a href="https://www.npmjs.com/package/instant-rs">
+    <img src="https://img.shields.io/npm/dm/instant-rs.svg" alt="npm downloads" />
+  </a>
+
+  <a href="https://www.npmjs.com/package/git-commit-msg-linter" target="_blank">
+    <img alt="lint by git commit msg linter" src="https://img.shields.io/badge/git-commit%20msg%20li
+nter-blue" />
+  </a>
+</p>
+
 > A better `console.time`.
 >
 > 💰 Time is money, a very tiny library to convert time costs of your program to a **human readable** format use [pretty-ms](https://www.npmjs.com/package/pretty-ms) and designed in a **good-DX API style like Rust's** 🦀  `instant.elapsed`.
