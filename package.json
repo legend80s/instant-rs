@@ -35,7 +35,15 @@
   "dependencies": {
     "pretty-ms": "^9.0.0"
   },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true,
+    "jsxSingleQuote": true
+  },
   "devDependencies": {
-    "git-commit-msg-linter": "^5.0.7"
+    "git-commit-msg-linter": "^5.0.7",
+    "prettier": "3.2.5"
   }
 }
